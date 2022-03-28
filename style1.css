@@ -1,0 +1,55 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --corlogo: #f2cc0e;
+    --cortext: #fff;
+    --corfundo: #b566a7;
+}
+.logo{
+    
+    font-size: 30px;
+    background: var(--corlogo);
+    
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    padding: 25px 0;
+    color:var(--cortext);
+}
+section a {
+    text-align:center;
+    color: var(--cortext);
+    text-decoration: none;
+    background-color: transparent;
+}
+section a:hover {
+    color: var(--corfundo);
+    text-decoration: underline;
+}
+section h2{
+    text-align: center;
+    color: var(--cortext);
+    font-size: 35px;
+    font-weight: 600;
+}
+section h2 span{
+    color: var(--corfundo);
+    transition: all 0.3s ease;
+}
+
+section .logo{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 30;
+    
+}
